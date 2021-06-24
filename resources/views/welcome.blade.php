@@ -50,26 +50,10 @@
           </ul>
         </li>
         <li><a href="#section3">Imagenes</a></li>  
-        <!--
-        <li class="has-submenu"><a href="">Cursos</a>   
-          <ul class="sub-menu">
-          
-            <li><a href="#section4">CCNA V7.0 I,II y III</a></li>
-            <li><a href="#section4">Cybersecurity</a></li>
-            <li><a href="#section4"> Programacion en Python</a></li>
-            <li><a href="#section4"> Big Data & Analitics </a></li>
-            <li><a href="#section4"> IT Essentials</a></li>
-          </ul>
-        </li> 
-        -->
-        <li><a href="#section4">Cursos</a></li> 
+       
+        <li><a href="#section5">Docentes</a></li> 
         <li><a href="#section6">Contactanos</a></li> 
-        <!-- 
-        <li><a id="app-messenger" target="_blanck" href="https://m.me/abelosh">
-        <i class="fab fa-facebook-messenger"></i>M</a></li>  
-        <li><a href="https://www.facebook.com/tecnet.networking" class="external"> <img src="{{ asset ('/assets/images/preloader.gif')}}" alt="">  m</a></li>
-      
-        -->
+       
         </ul>
     </nav>
   </header>
@@ -78,7 +62,7 @@
   <section class="section main-banner" id="top" data-section="section1">
       <video autoplay muted loop id="bg-video">
       
-          <source src= "{{ asset ('/assets/images/course-video.mp4')}}" type="video/mp4" />
+          <source src= "{{ asset ('/assets/images/course-video2.mp4')}}" type="video/mp4" />
       </video>
 
       <div class="video-overlay header-text">
@@ -166,8 +150,9 @@
       </div>
     </div>
   </section>
+ <!-- end clases virtuales-->
 
-
+  <!-- start quienes somos-->
 
   <section class="section why-us" data-section="section22">
     <div class="container">
@@ -348,100 +333,76 @@
             <img src="assets/images/courses-01.jpg" alt="Course #1">
             <div class="down-content">
               <h4>CCNA I Introduction to Networks</h4>
-             
-              <div class="text-button-pay">
-              <a href= "{{ url('/curso')}}">Ver detalles de curso</a>
-              </div>
             </div>
           </div>
           <div class="item">
             <img src="assets/images/courses-02.jpg" alt="Course #2">
             <div class="down-content">
               <h4>CCNA II  Switching, Routing, and Wireless Essentials</h4>
-              <div class="text-button-pay">
-              <a href= "{{ url('/curso')}}">Ver detalles de curso</a>
-              </div>
+              
             </div>
           </div>
           <div class="item">
             <img src="assets/images/courses-03.jpg" alt="Course #3">
             <div class="down-content">
               <h4>CCNA III  Enterprise Networking, Security, and Automation</h4>
-              <div class="text-button-pay">
-              <a href= "{{ url('/curso')}}">Ver detalles de curso</a>
-              </div>
+              
             </div>
           </div>
           <div class="item">
             <img src="assets/images/courses-04.jpg" alt="Course #4">
             <div class="down-content">
               <h4>Introduction to Cybersecurity</h4>
-              <div class="text-button-pay">
-              <a href= "{{ url('/curso')}}">Ver detalles de curso</a>
-              </div>
+              
             </div>
           </div>
           <div class="item">
             <img src="assets/images/courses-05.jpg" alt=""> 
             <div class="down-content">
               <h4>Cybersecurity Essentials</h4>
-              <div class="text-button-pay">
-              <a href= "{{ url('/curso')}}">Ver detalles de curso</a>
-              </div>
+              
             </div>
           </div>
           <div class="item">
             <img src="assets/images/courses-01.jpg" alt="">
             <div class="down-content">
               <h4>IOT Security</h4>
-              <div class="text-button-pay">
-              <a href= "{{ url('/curso')}}">Ver detalles de curso</a>
-              </div>
+              
             </div>
           </div>
           <div class="item">
             <img src="assets/images/courses-02.jpg" alt="">
             <div class="down-content">
               <h4> Cybersecurity Operations (CyberOps Associate)</h4>
-              <div class="text-button-pay">
-              <a href= "{{ url('/curso')}}">Ver detalles de curso</a>
-              </div>
+             
             </div>
           </div>
           <div class="item">
             <img src="assets/images/courses-03.jpg" alt="">
             <div class="down-content">
               <h4> Essentials in Python (Programación en Python)</h4>
-              <div class="text-button-pay">
-              <a href= "{{ url('/curso')}}">Ver detalles de curso</a>
-              </div>
+              
             </div>
           </div>
           <div class="item">
             <img src="assets/images/courses-04.jpg" alt="">
             <div class="down-content">
               <h4>PCAP Programming Essentials in Python (Programación en Python)</h4>
-              <div class="text-button-pay">
-              <a href= "{{ url('/curso')}}">Ver detalles de curso</a>
-              </div>
+              
             </div>
           </div>
           <div class="item">
             <img src="assets/images/courses-05.jpg" alt="">
             <div class="down-content">
               <h4>Big Data & Analitics (Big Data & Análisis de datos)</h4>
-              <div class="text-button-pay">
-              <a href= "{{ url('/curso')}}">Ver detalles de curso</a>
-              </div>
+             
             </div>
           </div>
           <div class="item">
             <img src="assets/images/courses-01.jpg" alt="">
             <div class="down-content">
               <h4>  IT ESSENTIALS V7.0 (Soporte Tecnico)</h4>
-              <div class="text-button-pay">
-              <a href= "{{ url('/curso')}}">Ver detalles de curso</a>
-              </div>
+            
             </div>
           </div>
         </div>
@@ -452,6 +413,45 @@
 
 <!--TERMINA CURSOS -->
 
+<!-- start docentes-->      
+<section class="section why-us" data-section="section5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id='tabs'>
+            
+            <section class='tabs-content'>
+              <article id='tabs-1'>
+                <div class="row">
+                  <div class="col-md-6"> 
+                  <br>
+                  <br>   
+                  <br>      
+                    <img src="{{ asset ('/assets/images/DOCENTE.jpg')}}" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>NUESTROS DOCENTES</h4>
+                    <p> Los docentes de la academia Netacad son profesionales con gran experiencia en sus respectivos campos 
+                      que guían a nuestros alumnos en cada etapa de los diferentes cursos que ofrecemos. 
+                      Además de transmitirles conocimiento, actúan como mentores y consejeros durante su proceso de aprendizaje.​ <br>
+                      Nuestros docentes tienen el siguiente perfil: Ético ,Crítico ,Transdisciplinario , Comprometido con su profesión y la academia,Potenciador  
+
+                    </p>  
+
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- end docentes-->
 <!-- start CONTactanos-->
 <section class="section coming-soon" data-section="section6">
     <div class="container">
@@ -467,21 +467,21 @@
                 <img src="{{ asset ('/assets/images/2-watsap.png')}}" alt=""> </img>
                 </a> 
                   <span>WhatsApp</span>
-                </div>
-                 <div class="counter">
+              </div>
+              <div class="counter">
                 <a href="https://www.facebook.com/tecnet.networking" rel="sponsored" target="_blank">
                   <img src="{{ asset ('/assets/images/1-facebook.png')}}" alt=""> </img>
                   </a> 
                   <span>Facebook</span>
-                </div>
+              </div>
 
           
-                <div class="minutes">
+              <div class="minutes">
                 <a href="https://www.facebook.com/tecnet.networking" rel="sponsored" target="_blank">
                 <img src="{{ asset ('/assets/images/3-gmail.png')}}" alt=""> </img>
                  </a>
                   <span>Gmail</span>
-                </div>
+              </div>
 
               </div>
             </div>
