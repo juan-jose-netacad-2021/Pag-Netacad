@@ -180,7 +180,8 @@
                 <div class="row">
                   <div class="col-md-6"> 
                   <br>
-                  <br>        
+                  <br>   
+                  <br>      
                     <img src="{{ asset ('/assets/images/quienes-somos.jpg')}}" alt="">
                   </div>
                   <div class="col-md-6">
@@ -237,8 +238,10 @@
             <section class='tabs-content'>
               <article id='tabs-1'>
                 <div class="row">
-                  <div class="col-md-6">     
-                    <img src="{{ asset ('/assets/images/choose-us-image-01.png')}}" alt="">
+                  <div class="col-md-6"> 
+                  <br> 
+                  <br>      
+                    <img src="{{ asset ('/assets/images/mision.png')}}" alt="">
                   </div>
                   <div class="col-md-6">
                     <h4>MISION</h4>
@@ -264,7 +267,9 @@
               <article id='tabs-1'>
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-01.png" alt="">
+                  <br> 
+                  <br>  
+                    <img src="assets/images/vision.jpg" alt="">
                   </div>
                   <div class="col-md-6">
                     <h4>VISION</h4>
