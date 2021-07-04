@@ -44,7 +44,6 @@
         <li class="has-submenu"><a href="">Nosotros</a>
           <ul class="sub-menu">
             <li><a href="#section22">Quienes somos</a></li>
-           <!-- <li><a href="#section23">Que hacemos</a></li> -->
             <li><a href="#section24"> Mision</a></li>
             <li><a href="#section25"> Vision</a></li>
           </ul>
@@ -70,9 +69,8 @@
           <div class="caption">
               <h6>Academia tecnologica de</h6>
               <h2><em>Cisco</em> en Bolivia</h2>
-              <!--<a href= "{{ url('/curso')}}">Ver detalles de curso</a>  -->
               <div class="main-button">
-                  <div class="scroll-to-section"><a href="#section22">Leer mas..</a></div>
+                  <div class="scroll-to-section"><a href="#section22">Leer mas...</a></div>
               </div>
           </div>
       </div>
@@ -187,7 +185,7 @@
       </div>
     </div>
   </section>
-
+<!--end quienes somos -->
 <section class="section why-us" data-section="section24">
     <div class="container">
       <div class="row">
@@ -216,6 +214,7 @@
       </div>
     </div>
   </section>
+  <!--end mision -->
 <section class="section why-us" data-section="section25">
     <div class="container">
       <div class="row">
@@ -243,7 +242,7 @@
       </div>
     </div>
   </section>
-<!--  end  mision--> 
+<!--  end  vision--> 
  <!--  EMPIEZA IMAGENES--> 
   <section class="section courses" data-section="section3">
     <div class="container-fluid">
@@ -317,7 +316,7 @@
           <div class="item">
             <img src="assets/images/ima-11.jpg" alt="">
             <div class="down-content">
-              <h4>Python</h4> <br>
+              <h4>Programacion en Python</h4> <br>
             </div>
           </div>
           <div class="item">
@@ -331,8 +330,8 @@
     </div>
   </section>
  <!--  ACABA IMAGENES--> 
-<!--  EMPIEZA CURSOS-->
 
+<!--  EMPIEZA CURSOS-->
 <section class="section courses" data-section="section4">
     <div class="container-fluid">
       <div class="row">
@@ -443,7 +442,7 @@
                     <img src="{{ asset ('/assets/images/DOCENTE.jpg')}}" alt="">
                   </div>
                   <div class="col-md-6">
-                    <h4>NUESTROS DOCENTES</h4>
+                    <h4> DOCENTES</h4>
                     <p> Los docentes de la academia Netacad son profesionales con gran experiencia en sus respectivos campos 
                       que guían a nuestros alumnos en cada etapa de los diferentes cursos que ofrecemos. 
                       Además de transmitirles conocimiento, actúan como mentores y consejeros durante su proceso de aprendizaje.​ <br>
@@ -462,9 +461,8 @@
       </div>
     </div>
   </section>
-
-
 <!-- end docentes-->
+
 <!-- start CONTactanos-->
 <section class="section coming-soon" data-section="section6">
     <div class="container">
@@ -487,8 +485,6 @@
                   </a> 
                   <span>Facebook</span>
               </div>
-
-          
               <div class="minutes">
                 <a href="mailto:tecnet20@outlook.es" rel="sponsored" target="_blank">
                 <img src="{{ asset ('/assets/images/3-gmail.png')}}" alt=""> </img>

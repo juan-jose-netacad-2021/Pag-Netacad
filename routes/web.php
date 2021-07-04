@@ -20,7 +20,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('mail',MailController::class);
+//Route::resource('mail',MailController::class);
 
 
 
