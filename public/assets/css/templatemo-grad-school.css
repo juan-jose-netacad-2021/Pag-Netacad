@@ -885,7 +885,7 @@ section.courses .owl-carousel button.owl-dot {
     outline: none;
 }
 section.courses .owl-carousel button.active {
-    background-color: #f5a425;
+    background-color: #47cfff;
 }
 
 
@@ -923,7 +923,7 @@ section.video .left-content h4 {
 }
 section.video .left-content h4 em {
     font-style: normal;
-    color: #f5a425;
+    color: #47cfff;
 }
 
 section.video .left-content .main-button {
@@ -1543,7 +1543,7 @@ section.contact form select::placeholder { color: #fff; }
 section.contact form select::placeholder { color: #fff; }
 
 section.contact form button {
-    background-color: #f5a425;
+    background-color: #47cfff;
     color: #fff;
     font-size: 13px;
     text-transform: uppercase;

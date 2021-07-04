@@ -52,6 +52,7 @@
         <li><a href="#section3">Imagenes</a></li>  
        
         <li><a href="#section5">Docentes</a></li> 
+        <li><a href="section4">Cursos</a></li> 
         <li><a href="#section6">Contactanos</a></li> 
        
         </ul>
@@ -90,7 +91,6 @@
               </div>
               <div class="content-hide">
                 <div class="tamaño-letra">
-
                 <ul>
                    <li type="circle">CCNA V7.0 (Curso de Redes de Datos Cisco)</li>
                    <li type="circle"> CCNA I   Introduction to Networks</li>
@@ -106,13 +106,15 @@
                    <li type="circle">   PCAP Programming Essentials in Python (Programación en Python)</li>
                     <li type="circle">  Big Data & Analitics (Big Data & Análisis de datos)</li>
                     <li type="circle">  IT ESSENTIALS V7.0 (Soporte Tecnico) </li>
-                    <a href= "{{ url('/curso')}}">Ver detalles de curso</a>
+                    
                 </ul>
-              </div> 
+              </div>
             </div>
           </div>
           </div>
+        
         </div>
+        
         <!-- header-clases virtuales-->
         <div class="col-lg-4 col-12">
           <div class="features-post second-features">
@@ -185,35 +187,7 @@
       </div>
     </div>
   </section>
-<!--
-  <section class="section why-us" data-section="section23">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div id='tabs'>
-            
-            <section class='tabs-content'>
-              <article id='tabs-1'>
-                <div class="row">
-                  <div class="col-md-6"> 
-                  <br>
-                  <br>
-                    <img src="{{ asset ('/assets/images/que-hacemos.jpg')}}" alt="">
-                  </div>
-                  <div class="col-md-6">
-                    <h4>QUE HACEMOS</h4>
-                    <p>Grad School is free educational HTML template with Bootstrap 4.5.2 CSS layout. Feel free to use it for educational or commercial purposes. You may want to make <a href="https://paypal.me/templatemo" target="_parent" rel="sponsored">a little donation</a> to TemplateMo. Please tell your friends about us. Thank you.</p>
-                  </div>
-                </div>
-              </article>
 
-            </section>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
--->
 <section class="section why-us" data-section="section24">
     <div class="container">
       <div class="row">
@@ -269,7 +243,7 @@
       </div>
     </div>
   </section>
-
+<!--  end  mision--> 
  <!--  EMPIEZA IMAGENES--> 
   <section class="section courses" data-section="section3">
     <div class="container-fluid">
@@ -281,37 +255,76 @@
         </div>
         <div class="owl-carousel owl-theme">
           <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="Course #1">
+            <img src="assets/images/ima-01.jpg" alt="Course #1">
+            <div class="down-content">
+              <h4>Redes LAN </h4> <br> <br>
+            </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-02.jpg" alt="Course #2">
+            <img src="assets/images/ima-02.jpg" alt="Course #2">
+            <div class="down-content">
+              <h4>Redes WAN </h4> <br> <br>
+            </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-03.jpg" alt="Course #3">  
+            <img src="assets/images/ima-03.jpg" alt="Course #3"> 
+            <div class="down-content">
+              <h4>Redes PAN </h4> <br> <br>
+            </div> 
           </div>
           <div class="item">
-            <img src="assets/images/courses-04.jpg" alt="Course #4">
+            <img src="assets/images/ima-04.jpg" alt="Course #4">
+            <div class="down-content">
+              <h4> Seguridad en la red - Firewall </h4> <br>
+            </div> 
            </div>
           <div class="item">
-            <img src="assets/images/courses-05.jpg" alt="">
+            <img src="assets/images/ima-05.png" alt="">
+            <div class="down-content">
+              <h4>Dispositivos intermediarios de red</h4>
+            </div> 
           </div>
           <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="">
+            <img src="assets/images/ima-06.jpg" alt="">
+            <div class="down-content">
+              <h4>Dispositivos finales de red</h4> <br>
+            </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-02.jpg" alt="">
+            <img src="assets/images/ima-07.jpg" alt="">
+            <div class="down-content">
+              <h4>Medios de red</h4> <br> <br>
+            </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-03.jpg" alt="">
+            <img src="assets/images/ima-08.jpg" alt="">
+            <div class="down-content">
+              <h4>Direccion IPV6</h4> <br> <br>
+            </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-04.jpg" alt="">
+            <img src="assets/images/ima-09.png" alt="">
+            <div class="down-content">
+              <h4>Direccion IPV4</h4> <br> <br>
+            </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-05.jpg" alt="">
+            <img src="assets/images/ima-10.png" alt="">
+            <div class="down-content">
+              <h4>Direccion MAC</h4> <br> <br>
+            </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="">
+            <img src="assets/images/ima-11.jpg" alt="">
+            <div class="down-content">
+              <h4>Python</h4> <br>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/ima-12.jpg" alt="">
+            <div class="down-content">
+              <h4>Tipos de Malware</h4> <br> <br>
+            </div>
           </div>
         </div>
       </div>
@@ -330,79 +343,79 @@
         </div>
         <div class="owl-carousel owl-theme">
           <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="Course #1">
+            <img src="assets/images/course-01.jpg" alt="Course #1">
             <div class="down-content">
-              <h4>CCNA I Introduction to Networks</h4>
+              <h4>CCNA I Introduction to Networks</h4><br> <br>
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-02.jpg" alt="Course #2">
+            <img src="assets/images/course-02.jpg" alt="Course #2">
             <div class="down-content">
               <h4>CCNA II  Switching, Routing, and Wireless Essentials</h4>
               
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-03.jpg" alt="Course #3">
+            <img src="assets/images/course-03.jpg" alt="Course #3">
             <div class="down-content">
               <h4>CCNA III  Enterprise Networking, Security, and Automation</h4>
               
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-04.jpg" alt="Course #4">
+            <img src="assets/images/course-04.jpg" alt="Course #4">
             <div class="down-content">
               <h4>Introduction to Cybersecurity</h4>
-              
+              <br> <br> 
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-05.jpg" alt=""> 
+            <img src="assets/images/course-05.jpg" alt=""> 
             <div class="down-content">
               <h4>Cybersecurity Essentials</h4>
-              
+              <br>  <br>  
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="">
+            <img src="assets/images/course-06.jpg" alt="">
             <div class="down-content">
               <h4>IOT Security</h4>
-              
-            </div>
+              <br>  <br>  <br>  
+            </div>  
           </div>
           <div class="item">
-            <img src="assets/images/courses-02.jpg" alt="">
+            <img src="assets/images/course-07.jpg" alt="">
             <div class="down-content">
               <h4> Cybersecurity Operations (CyberOps Associate)</h4>
-             
+              <br>  
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-03.jpg" alt="">
+            <img src="assets/images/course-08.png" alt="">
             <div class="down-content">
               <h4> Essentials in Python (Programación en Python)</h4>
-              
+              <br>   
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-04.jpg" alt="">
+            <img src="assets/images/course-09.jpg" alt="">
             <div class="down-content">
               <h4>PCAP Programming Essentials in Python (Programación en Python)</h4>
               
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-05.jpg" alt="">
+            <img src="assets/images/course-10.jpg" alt="">
             <div class="down-content">
               <h4>Big Data & Analitics (Big Data & Análisis de datos)</h4>
-             
+              <br>  <br>  <br>
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="">
+            <img src="assets/images/course-11.png" alt="">
             <div class="down-content">
               <h4>  IT ESSENTIALS V7.0 (Soporte Tecnico)</h4>
-            
+              <br>  <br>  
             </div>
           </div>
         </div>
@@ -463,7 +476,7 @@
               <div class="counter">
 
                 <div class="days">
-                <a href="https://www.facebook.com/tecnet.networking" rel="sponsored" target="_blank">
+                <a href="https://wa.me/59175282702/?text=Academia%20Tecnet :%20En%20que%20curso%20esta%20interesado? rel="sponsored" target="_blank">
                 <img src="{{ asset ('/assets/images/2-watsap.png')}}" alt=""> </img>
                 </a> 
                   <span>WhatsApp</span>
@@ -477,7 +490,7 @@
 
           
               <div class="minutes">
-                <a href="https://www.facebook.com/tecnet.networking" rel="sponsored" target="_blank">
+                <a href="mailto:tecnet20@outlook.es" rel="sponsored" target="_blank">
                 <img src="{{ asset ('/assets/images/3-gmail.png')}}" alt=""> </img>
                  </a>
                   <span>Gmail</span>
