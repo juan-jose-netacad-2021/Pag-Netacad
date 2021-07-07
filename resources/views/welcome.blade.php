@@ -10,9 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
     <title>Cisco Academy</title>
-    
-    <!-- Bootstrap core CSS -->
-    <!-- {{ asset('/css/miestilo.css') }} -->
+  
     <!--<script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
     -->
 
@@ -57,20 +55,23 @@
         </ul>
     </nav>
   </header>
-
+<!--end header -->
+  <!-- ***** Main Banner Area Start ***** -->
+ 
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
       <video autoplay muted loop id="bg-video">
       
-          <source src= "{{ asset ('/assets/images/course-video2.mp4')}}" type="video/mp4" />
+          <source src= "{{ asset ('/assets/images/course-video.mp4')}}" type="video/mp4" />
       </video>
 
       <div class="video-overlay header-text">
           <div class="caption">
               <h6>Academia tecnologica de</h6>
               <h2><em>Cisco</em> en Bolivia</h2>
+              <!--<a href= "{{ url('/curso')}}">Ver detalles de curso</a>  -->
               <div class="main-button">
-                  <div class="scroll-to-section"><a href="#section22">Leer mas...</a></div>
+                  <div class="scroll-to-section"><a href="#section22">Leer mas..</a></div>
               </div>
           </div>
       </div>
@@ -89,6 +90,7 @@
               </div>
               <div class="content-hide">
                 <div class="tamaño-letra">
+
                 <ul>
                    <li type="circle">CCNA V7.0 (Curso de Redes de Datos Cisco)</li>
                    <li type="circle"> CCNA I   Introduction to Networks</li>
@@ -104,15 +106,14 @@
                    <li type="circle">   PCAP Programming Essentials in Python (Programación en Python)</li>
                     <li type="circle">  Big Data & Analitics (Big Data & Análisis de datos)</li>
                     <li type="circle">  IT ESSENTIALS V7.0 (Soporte Tecnico) </li>
-                    
+                 
                 </ul>
-              </div>
+            
+              </div> 
             </div>
           </div>
           </div>
-        
         </div>
-        
         <!-- header-clases virtuales-->
         <div class="col-lg-4 col-12">
           <div class="features-post second-features">
@@ -135,14 +136,14 @@
           <div class="features-post third-features">
             <div class="features-content">
               <div class="content-show">
-                <h4><i class="fa fa-book"></i>Beneficios</h4>
+                <h4><i class="fa fa-book"></i>Beneficios.</h4>
               </div>
               <div class="content-hide">
                 <p>Los beneficios que usted tendra son los siguientes:</p>
-                <p> - Acceso a la plataforma Cisco 24/7</p>
+                <p> - Acceso a la plataforma Cisco 24/7.</p>
                 <p> - Acceso a las diferentes herramientas (Packet Traicer, Simulador de hardware, terminal linux, etc)</p>
-                <p> - Acceso a los diferentes examenes</p>
-                <p> - Acceso a las clases virtuales en vivo a tráves de Cisco Webex</p>
+                <p> - Acceso a los diferentes examenes.</p>
+                <p> - Acceso a las clases virtuales en vivo a tráves de Cisco Webex.</p>
             </div>
             </div>
           </div>
@@ -150,9 +151,6 @@
       </div>
     </div>
   </section>
- <!-- end clases virtuales-->
-
-  <!-- start quienes somos-->
 
   <section class="section why-us" data-section="section22">
     <div class="container">
@@ -186,6 +184,7 @@
     </div>
   </section>
 <!--end quienes somos -->
+<!--start mision-->
 <section class="section why-us" data-section="section24">
     <div class="container">
       <div class="row">
@@ -215,6 +214,7 @@
     </div>
   </section>
   <!--end mision -->
+  <!-- start vision-->
 <section class="section why-us" data-section="section25">
     <div class="container">
       <div class="row">
@@ -322,7 +322,7 @@
           <div class="item">
             <img src="assets/images/ima-12.jpg" alt="">
             <div class="down-content">
-              <h4>Tipos de Malware</h4> <br> <br>
+              <h4>Tipos de Malware</h4> <br> 
             </div>
           </div>
         </div>
