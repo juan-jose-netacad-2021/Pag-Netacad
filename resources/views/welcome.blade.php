@@ -501,7 +501,8 @@
             <div class="top-content">
               <h6>Llena el siguiente formulario y recibe informacion sobre <em>nuestros cursos</em> certificados por CISCO</h6>
             </div>
-            <form id="contact" action="" method="get">
+            <form id="contact" action="{{route('contactanos.store')}}" method="post">
+            @csrf
               <div class="row">
                 <div class="col-md-12">
                   <fieldset>
@@ -510,7 +511,7 @@
                 </div>
                 <div class="col-md-12">
                   <fieldset>
-                    <input name="email" type="text" class="form-control" id="email" placeholder="Email" required="">
+                    <input name="correo" type="text" class="form-control" id="email" placeholder="Email" required="">
                   </fieldset>
                 </div>
                 <div class="col-md-12">
@@ -520,7 +521,7 @@
                 </div>
                 <div class="col-md-12">
                   <fieldset>
-                    <input name="curso" type="text" class="form-control" id="phone-number" placeholder="Curso en el que estas interesado" required="">
+                    <input name="mensaje" type="text" class="form-control" id="phone-number" placeholder="Curso en el que estas interesado" required="">
                   </fieldset>
                 </div>
                 <div class="col-md-12">
